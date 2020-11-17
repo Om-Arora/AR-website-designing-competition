@@ -1,0 +1,146 @@
+/*
+=========================================
+Fonts used :
+  Grenze Gotisch --> For navbar
+  Berkshire Swash --> For titles
+  Syne Mono --> For body
+=========================================
+*/
+
+/* Small screen devices
+@media (max-width: 768px) {
+  .no-display-on-mobile {
+    display: none;
+  }
+}
+
+ PC's
+@media (min-width: 768px) {
+  .no-display-on-pc {
+    display: none;
+  }
+
+  .content-hitler {
+    border-radius: 15px;
+  }
+
+  .container-hitler {
+    position: relative;
+    top: 0;
+  }
+}
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar, footer {
+  background-color: #fff;
+  /*
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  */
+}
+
+nav ul a {
+    color: #888 !important;
+    border: 2px solid transparent;
+    text-align: center;
+}
+
+nav ul a:hover {
+  color: #f00 !important;
+  border: 2px solid #f00;
+  border-radius: 10px;
+}
+
+.t-nav {
+  font-family: 'Grenze Gotisch';
+}
+
+/*
+.bg-top {
+  background: url('bg.jpg');
+}
+
+.bg-top-a {
+  margin-top: 10%;
+}
+
+.bg-ww1 {
+  background: url('ww1.jpg');
+}
+
+.bg-hitler {
+  background: url('hitler.JPEG');
+}
+
+.bg-black {
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.bg-countries {
+  background: url('ww2-countries.jpg');
+}
+
+.bg-ussr-invasion {
+  background: url('ussr-invasion.jpg');
+}
+
+.bg-japanbombing {
+  background: url('japan-bombing.jpg');
+}
+
+.bg-atombomb {
+  background: url('nagasaki.webp');
+}
+
+.bg-conclude {
+  background: url('conclusion.jpg');
+}
+
+body {
+  background: url('bg.jpg');
+}
+
+.bg-top, .bg-ww1, .bg-hitler, .bg-countries, .bg-ussr-invasion, .bg-japanbombing, .bg-atombomb, .bg-conclude, body {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+.heading {
+  font-family: 'Berkshire Swash';
+}
+
+.content {
+  font-family: 'Syne Mono';
+}
+
+footer {
+  height: 10%;
+}
+
+.bg-plain {
+  background-image: url('bg.jpg');
+  color: #000;
+}
+
+.blank-separater-bar {
+  background-image: url('bg.jpg');
+  height: 10%;
+}
+*/
