@@ -27,26 +27,7 @@
       height: 200%;
     }
     </style>
-    <!--
-    <body style='margin : 0px; overflow: hidden;'>
-    <div class="" style='margin : 0px; overflow: hidden; height: 100%;'>
-    <a-scene embedded arjs='sourceType: webcam;'>
-    <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
-    <a-marker-camera preset='hiro'></a-marker-camera>
-  </a-scene>
-</div>
-</body>
-
-<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
-<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap" rel="stylesheet">
--->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top t-nav">
-      <!--
-      Class of below span is originally h3
-      -->
       <span class="h4 text-white">Augmented Reality</span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -73,231 +54,95 @@
       </div>
     </nav>
     <br><br>
-<!--
-========================================================================
-  <div id="ar-div" style='margin : 0px; overflow: hidden; height: 100%;'>
-    <button type="button" name="button" onclick="displayAR()">Click me</button>
-  </div>
-========================================================================
--->
-
-<div class="container-fluid bg-white h-100 text-center padding-10 bg-ar bg text-white">
-  <br><br>
-  <div class="translucent-box-6-5 col-md-5 text-center">
-    <span class="display-3 text-center margin-10">Augmented Reality</span>
-    <br>
-    <span class="display-3 text-center">The Future</span>
+  <div class="container-fluid bg-white h-100 text-center padding-10 bg-ar bg text-white">
     <br><br>
-  </div>
-</div>
-<span id="ar"></span>
-<div class="container-fluid bg-white h-50 text-center">
-  <br><br>
-  <span class="display-4 text-center appear">What is augmented reality ?</span>
-  <br><br>
-  <div class="h3 text-justify container float-in">
-    Augmented reality (AR) is an interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information.
-    Simply put, it means that the real-world environment as seen by the computers is modified to provide some information, or simply enhance user satisfaction.
-  </div>
-</div>
-<span id="browser"></span>
-<div class="container-fluid bg bg-ar-work">
-  <div class="container-fluid text-white text-right bg-ar-work bg padding-15">
-    <span class="col-md-5 h1 text-justify translucent-box-9">Ever wondered how does it feel like ?</span>
-  </div>
-  <div class="container-fluid text-white text-left bg-ar-work bg padding-10">
-    <span class="col-md-5 h1 text-justify translucent-box-9">The world around you, just completely different...</span>
-  </div>
-  <div class="container-fluid text-white text-center bg-ar-work bg padding-10">
-    <div class="h1 text-center translucent-box-9">Follow the below steps to experience AR from within your browser.</div>
-    <div class="h1 text-center translucent-box-9">Built with the power of AR.js by Jérôme Etienne</div>
-  </div>
-  <div class="container text-white text-center bg-ar-work bg padding-10">
-    <div class="h1 text-center translucent-box-9">
-      Step 1:
+    <div class="translucent-box-6-5 col-md-5 text-center">
+      <span class="display-3 text-center margin-10">Augmented Reality</span>
       <br>
-      Download the marker from <a href="marker.pdf" target="_blank">here</a> (pdf file).
-    </div>
-  </div>
-  <div class="container text-white text-center bg-ar-work bg padding-10">
-    <div class="h1 text-center translucent-box-9">
-      Step 2:
-      <br>
-      Go to <a href="ar-js.html" target="_blank">this page</a> and allow permissions for camera.
-    </div>
-  </div>
-  <div class="container-fluid text-white text-left bg-ar-work bg padding-10">
-    <div class="h1 text-center translucent-box-9">
-      Step 3:
-      <br>
-      Take a print-out of the marker (the pdf file) and hold it in front of the camera.
-      <br>
-      <img src="demo.png" alt="" height="20%" width="20%" style="border-radius: 10px;">
-      <br>
-      You should be able to see a cube on top of that marker on your screen as in the image.
-      <br>
-      Go ahead! Try to rotate it. The cube should rotate as well. This was just a glimpse of what Augmented Reality can do!
-    </div>
-  </div>
-  <br><br><br>
-</div>
-<span id="education"></span>
-<div class="container-fluid bg-white h-50 text-center">
-  <br><br>
-  <span class="display-4 text-center appear">Augmented Reality in education</span>
-  <br><br>
-  <div class="h3 text-justify container float-in">
-    Augmented reality has a number of applications, and a prominent one is education. Using augmented reality in the classroom can turn an ordinary class into an engaging experience. AR technology provides virtual examples and adds gaming elements to support textbook materials. As a result, classes become more interactive. AR helps students better remember the information they’ve just learned.
-  </div>
-</div>
-<div class="container-fluid h-50 bg bg-ar-education"></div>
-<span id="education-2"></span>
-<div class="container-fluid bg-white h-75 text-center">
-  <br><br><br><br>
-  <span class="display-4 text-center appear">What all can AR do for education ?</span>
-  <br><br>
-  <div class="h3 text-justify container float-in">
-    AR can be and has been sucessfully implemented for the following:
-    <br>
-    <ul>
-      <li>Paleontology: Example - Dinasour 4D+</li>
-      <li>Chemistry: Example - Elements 4D</li>
-      <li>History and Science: Example - Google Expeditions</li>
-      <li>Medical Education and training: Example - Human Anatomy Atlas</li>
-      <li>Space education: Example - Project Sidekick</li>
-      <li>Military training: Example - Augmented Immersive Team Trainer (AITT)</li>
-    </ul>
-  </div>
-</div>
-<div class="h-50 bg bg-ar-education-2"></div>
-<div class="h-25 footer text-center display-4"><br>Augmented Reality : A game changer</div>
-
-<!--
-    <div class="bg-top container-fluid heading h-100 text-center">
-      <div class="bg-top-a heading display-1">
-        World War <span class="t-nav">II</span>
-        <br>
-        <span class="display-4">A complete overview</span>
-      </div>
-    </div>
-    <div class="container-fluid bg-plain" id="ww1">
+      <span class="display-3 text-center">The Future</span>
       <br><br>
-      <h1 class="heading text-center display-4">World War<span class="t-nav"> I </span>and its aftermath</h1>
-      <br>
-      <div class="content container text-justify">
-        <p>World War I, also known as the Great War, began in 1914 after the assassination of Archduke Franz Ferdinand of Austria. His murder catapulted into a war across Europe that lasted until 1918. During the conflict, Germany, Austria-Hungary, Bulgaria and the Ottoman Empire (the Central Powers) fought against Great Britain, France, Russia, Italy, Romania, Japan and the United States (the Allied Powers). Thanks to new military technologies and the horrors of trench warfare, World War I saw unprecedented levels of carnage and destruction. By the time the war was over and the Allied Powers claimed victory, more than 16 million people were dead.
-        </p>
-        <br>
-        <p>
-        World War I saw drastic political, cultural, economic, and social change across Eurasia, Africa, and even in areas outside those that were directly involved. Four empires collapsed due to the war, old countries were abolished, new ones were formed, boundaries were redrawn, international organizations were established, and many new and old ideologies took a firm hold in people's minds. World War I also had the effect of bringing political transformation to most of the principal parties involved in the conflict, transforming them into electoral democracies by bringing near-universal suffrage for the first time in history, as in Germany , Great Britain, and Turkey.
-      </p>
-        <br><br><br>
-      </div>
-    </div>
-    <div class="bg-ww1 h-75"></div>
-    <div class="container-fluid bg-plain" id="nazism">
-      <br><br>
-      <h1 class="heading text-center display-4">The Rise of Nazism</h1>
-      <br>
-      <div class="container content text-justify">
-        Before the onset of the Great Depression in Germany in 1929–1930, the National Socialist German Workers' Party (or Nazi Party for short) was a small party on the radical right of the German political spectrum. During 1930–1933, the mood in Germany was grim. The worldwide economic depression had hit the country hard, and millions of people were out of work. The unemployed were joined by millions of others who linked the Depression to Germany's national humiliation after defeat in World War 1. Many Germans perceived the parliamentary government coalition as weak and unable to alleviate the economic crisis. Widespread economic misery, fear, and perception of worse times to come, as well as anger and impatience with the apparent failure of the government to manage the crisis, offered fertile ground for the rise of Adolf Hitler and his Nazi Party.
-      </div>
-      <br><br><br>
-    </div>
-    <div class="container-fluid bg-hitler h-100 no-display-on-pc"></div>
-    <div class="text-center bg-plain col-md-5 content-hitler no-display-on-pc"  id="adolf-hitler-mb">
-        <br><br>
-        <h1 class="heading display-4">Adolf Hitler</h1>
-        <br>
-        <div class="container content text-justify">
-          Adolf Hitler, the leader of Germany’s Nazi Party, was one of the most powerful and notorious dictators of the 20th century. Hitler capitalized on economic woes, popular discontent and political infighting to take absolute power in Germany beginning in 1933. Germany’s invasion of Poland in 1939 led to the outbreak of World War II, and by 1941 Nazi forces had occupied much of Europe. Hitler’s virulent anti-Semitism and obsessive pursuit of Aryan supremacy fueled the murder of some 6   million Jews, along with other victims of the Holocaust. After the tide of war turned against him, Hitler committed suicide in a Berlin bunker in April 1945.
-          <br><br>
-      </div>
-    </div>
-    <div class="container-fluid bg-hitler h-100 no-display-on-mobile">
-    <span class="no-display-on-mobile"><br><br></span>
-    <div class="text-center bg-plain col-md-5 content-hitler" id="adolf-hitler">
-      <div class="container-hitler">
-        <br><br>
-        <h1 class="heading display-4">Adolf Hitler</h1>
-        <br>
-        <div class="container content text-justify">
-          Adolf Hitler, the leader of Germany’s Nazi Party, was one of the most powerful and notorious dictators of the 20th century. Hitler capitalized on economic woes, popular discontent and political infighting to take absolute power in Germany beginning in 1933. Germany’s invasion of Poland in 1939 led to the outbreak of World War II, and by 1941 Nazi forces had occupied much of Europe. Hitler’s virulent anti-Semitism and obsessive pursuit of Aryan supremacy fueled the murder of some 6   million Jews, along with other victims of the Holocaust. After the tide of war turned against him, Hitler committed suicide in a Berlin bunker in April 1945.
-          <br><br>
-        </div>
-      </div>
     </div>
   </div>
-    <span class="no-display-on-mobile"><br><br></span>
-    <div class="container-fluid blank-separater-bar no-display-on-mobile"></div>
-    <div class="container-fluid bg-countries h-100"></div>
-    <div class="container-fluid bg-plain text-center" id="war-begins">
-      <br><br>
-      <h1 class="heading display-4">The Outbreak of the War</h1>
-      <br>
-      <div class="container text-justify content">
-        <p>
-          By the early part of 1939 the German dictator Adolf Hitler had become determined to invade and occupy Poland. Poland, for its part, had guarantees of French and British military support should it be attacked by Germany. Hitler intended to invade Poland anyway, but first he had to neutralize the possibility that the Soviet Union would resist the invasion of its western neighbour. Secret negotiations led on August 23–24 to the signing of the German-Soviet Nonaggression Pact in Moscow. In a secret protocol of this pact, the Germans and the Soviets agreed that Poland should be divided between them, with the western third of the country going to Germany and the eastern two-thirds being taken over by the U.S.S.R.
-        </p>
+  <span id="ar"></span>
+  <div class="container-fluid bg-white h-50 text-center">
+    <br><br>
+    <span class="display-4 text-center appear">What is augmented reality ?</span>
+    <br><br>
+    <div class="h3 text-justify container float-in">
+      Augmented reality (AR) is an interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information.
+      Simply put, it means that the real-world environment as seen by the computers is modified to provide some information, or simply enhance user satisfaction.
+    </div>
+  </div>
+  <span id="browser"></span>
+  <div class="container-fluid bg bg-ar-work">
+    <div class="container-fluid text-white text-right bg-ar-work bg padding-15">
+      <span class="col-md-5 h1 text-justify translucent-box-9">Ever wondered how does it feel like ?</span>
+    </div>
+    <div class="container-fluid text-white text-left bg-ar-work bg padding-10">
+      <span class="col-md-5 h1 text-justify translucent-box-9">The world around you, just completely different...</span>
+    </div>
+    <div class="container-fluid text-white text-center bg-ar-work bg padding-10">
+      <div class="h1 text-center translucent-box-9">Follow the below steps to experience AR from within your browser.</div>
+      <div class="h1 text-center translucent-box-9">Built with the power of AR.js by Jérôme Etienne</div>
+    </div>
+    <div class="container text-white text-center bg-ar-work bg padding-10">
+      <div class="h1 text-center translucent-box-9">
+        Step 1:
         <br>
-        <p>
-          Having achieved this cynical agreement, the other provisions of which stupefied Europe even without divulgence of the secret protocol, Hitler thought that Germany could attack Poland with no danger of Soviet or British intervention and gave orders for the invasion to start on August 26. News of the signing, on August 25, of a formal treaty of mutual assistance between Great Britain and Poland (to supersede a previous though temporary agreement) caused him to postpone the start of hostilities for a few days. He was still determined, however, to ignore the diplomatic efforts of the western powers to restrain him. Finally, at 12:40 PM on August 31, 1939, Hitler ordered hostilities against Poland to start at 4:45 the next morning. The invasion began as ordered. In response, Great Britain and France declared war on Germany on September 3, at 11:00 AM and at 5:00 PM, respectively. World War II had begun.
-        </p>
+        Download the marker from <a href="marker.pdf" target="_blank">here</a> (pdf file).
+      </div>
+    </div>
+    <div class="container text-white text-center bg-ar-work bg padding-10">
+      <div class="h1 text-center translucent-box-9">
+        Step 2:
         <br>
+        Go to <a href="ar-js.html" target="_blank">this page</a> and allow permissions for camera.
       </div>
     </div>
-    <div class="container-fluid h-75 bg-ussr-invasion"></div>
-    <div class="container-fluid text-center bg-plain" id="invasion-of-ussr">
-      <br><br>
-      <h1 class="heading display-4">Germany invades USSR</h1>
-      <br>
-      <div class="content text-justify container">
-        <p>
-          For the campaign against the Soviet Union, the Germans allotted almost 150 divisions containing a total of about 3,000,000 men. Among these were 19 panzer divisions, and in total the “Barbarossa” force had about 3,000 tanks, 7,000 artillery pieces, and 2,500 aircraft. It was in effect the largest and most powerful invasion force in human history. The Germans’ strength was further increased by more than 30 divisions of Finnish and Romanian troops.
-        </p>
+    <div class="container-fluid text-white text-left bg-ar-work bg padding-10">
+      <div class="h1 text-center translucent-box-9">
+        Step 3:
         <br>
-        <p>
-        The German attack on the Soviet Union was to have an immediate and highly salutary effect on Great Britain’s situation. Until then Britain’s prospects had appeared hopeless in the eyes of most people except the British themselves; and the government’s decision to continue the struggle after the fall of France and to reject Hitler’s peace offers could spell only slow suicide unless relief came from either the United States or the U.S.S.R. Hitler brought Great Britain relief by turning eastward and invading the Soviet Union just as the strain on Britain was becoming severe.
-        </p>
+        Take a print-out of the marker (the pdf file) and hold it in front of the camera.
+        <br>
+        <img src="demo.png" alt="" height="20%" width="20%" style="border-radius: 10px;">
+        <br>
+        You should be able to see a cube on top of that marker on your screen as in the image.
+        <br>
+        Go ahead! Try to rotate it. The cube should rotate as well. This was just a glimpse of what Augmented Reality can do!
       </div>
-      <br>
     </div>
-    <div class="container-fluid h-75 bg-japanbombing"></div>
-    <div class="container-fluid text-center bg-plain" id="japan-bombs-harbour">
-      <br><br>
-      <h1 class="heading display-4">Japan bombs the Pearl Harbour</h1>
-      <br>
-      <div class="container text-justify content">
-        The Attack on Pearl Harbor was a surprise military strike by the Imperial Japanese Navy Air Service upon the United States against the naval base at Pearl Harbor in Honolulu, Territory of Hawaii, just before 08:00, on Sunday morning, December 7, 1941. The attack led to the United States' formal entry into World War II the next day. The Japanese military leadership referred to the attack as the Hawaii Operation and Operation AI and as Operation Z during its planning. Japan intended the attack as a preventive action to keep the United States Pacific Fleet from interfering with its planned military actions in Southeast Asia against overseas territories of the United Kingdom, the Netherlands, and the United States. Over the course of seven hours there were coordinated Japanese attacks on the U.S.-held Philippines, Guam, and Wake Island and on the British Empire in Malaya, Singapore, and Hong Kong.
-      </div>
-      <br>
+    <br><br><br>
+  </div>
+  <span id="education"></span>
+  <div class="container-fluid bg-white h-50 text-center">
+    <br><br>
+    <span class="display-4 text-center appear">Augmented Reality in education</span>
+    <br><br>
+    <div class="h3 text-justify container float-in">
+      Augmented reality has a number of applications, and a prominent one is education. Using augmented reality in the classroom can turn an ordinary class into an engaging experience. AR technology provides virtual examples and adds gaming elements to support textbook materials. As a result, classes become more interactive. AR helps students better remember the information they’ve just learned.
     </div>
-    <div class="container-fluid h-75 bg-atombomb"></div>
-    <div class="container-fluid text-center bg-plain" id="us-ends-war">
-      <br><br>
-      <h1 class="heading display-4">US ends the War</h1>
+  </div>
+  <div class="container-fluid h-50 bg bg-ar-education"></div>
+  <span id="education-2"></span>
+  <div class="container-fluid bg-white h-75 text-center">
+    <br><br><br><br>
+    <span class="display-4 text-center appear">What all can AR do for education ?</span>
+    <br><br>
+    <div class="h3 text-justify container float-in">
+      AR can be and has been sucessfully implemented for the following:
       <br>
-      <div class="container text-justify content">
-        On August 6, 1945, during World War II (1939-45), an American B-29 bomber dropped the world’s first deployed atomic bomb over the Japanese city of Hiroshima. The explosion immediately killed an estimated 80,000 people; tens of thousands more would later die of radiation exposure. Three days later, a second B-29 dropped another A-bomb on Nagasaki, killing an estimated 40,000 people. Japan’s Emperor Hirohito announced his country’s unconditional surrender in World War II in a radio address on August 15, citing the devastating power of “a new and most cruel bomb.”
-      </div>
-      <br>
+      <ul>
+        <li>Paleontology: Example - Dinasour 4D+</li>
+        <li>Chemistry: Example - Elements 4D</li>
+        <li>History and Science: Example - Google Expeditions</li>
+        <li>Medical Education and training: Example - Human Anatomy Atlas</li>
+        <li>Space education: Example - Project Sidekick</li>
+        <li>Military training: Example - Augmented Immersive Team Trainer (AITT)</li>
+      </ul>
     </div>
-    <div class="container-fluid h-75 bg-conclude"></div>
-    <div class="container-fluid text-center bg-plain" id="conclusion">
-      <br><br>
-      <h1 class="heading display-4">Conclusion</h1>
-      <br>
-      <div class="container text-justify content">
-        World War Two, the second major international conflict in a matter of decades, was nothing short of a wholesale assault on the ideals of civilization. This is not an exaggeration. Let us look at some of the numbers, which reflect the devastation. Worldwide, it is estimated that 70 million people died as a result of the Second World War. Nazi Germany suffered over five million military deaths, China about 3.5 million. The Soviet Union saw over 10 million of its soldiers perish—an astounding number—eclipsed only by the more astounding 11 million deaths of Russian civilians. The Second World War was a beginning of a dark new phase of warfare, a phase that saw civilian deaths far exceed deaths of military combatants. Indonesia is a perfect example of this dark trend. The archipelago had no military fatalities and yet lost 4 million people, all civilians, to the war. In Europe, the ratio of military to civilian deaths was also lopsided. The Dutch, in resisting the Nazi advance of 1940, suffered around 15,000 deaths. All told, the Dutch lost over 100,000 civilians during the war along with another 100,000 Jews. Poland was even worse off. The Poles lost a quarter of a million soldiers in a valiant attempt to slow the Nazi Blitzkrieg, but this was nothing in relation to the nearly two and half million Polish civilian death and the three million Polish Jews who died in the Nazi ghettos and extermination camps. The exception to this rule was, for obvious reasons, the United States, which lost over 400,000 at war and only around 1,500 civilians. Overall, the numbers are clear, while an astounding 25 million people died fighting during World War II, an unfathomable and truly horrific number of civilians, over 41 million, died as collateral damage. Modern warfare targeted not just armies but peoples. We see the gruesome extension of this concept in every subsequent war in the twentieth century and today.
-      </div>
-      <br>
-    </div>
-    <audio id="player" src="bg.mp3" loop="loop" autoplay="autoplay"></audio>
-    <script type="text/javascript">
-    window.onfocus = function() { document.getElementById('player').play(); };
-    window.onblur = function() { document.getElementById('player').pause(); };
-    </script>
-
-  -->
-  </body>
+  </div>
+  <div class="h-50 bg bg-ar-education-2"></div>
+  <div class="footer text-center h5"><br>Augmented Reality : A game changer</div>
+</body>
 </html>
